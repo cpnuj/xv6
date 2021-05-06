@@ -150,6 +150,9 @@ UPROGS=\
 	$U/_wc\
 	$U/_zombie\
 	$U/_copy\
+	$U/_sleep\
+	$U/_pingpong\
+	$U/_primes\
 
 ifeq ($(LAB),syscall)
 UPROGS += \
