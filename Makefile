@@ -304,5 +304,7 @@ myapi.key:
 		false; \
 	fi;
 
+gdb:
+	riscv64-linux-gnu-gdb kernel/kernel
 
-.PHONY: handin tarball tarball-pref clean grade handin-check
+.PHONY: handin tarball tarball-pref clean grade handin-check gdb
